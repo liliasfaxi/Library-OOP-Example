@@ -6,12 +6,12 @@ import library.utils.FullName;
 
 public class Author {
     private FullName name;
-    private String bibliography;
+    private String biography;
     private Date birthDate;
     
-    public Author(FullName name, String bibliography, Date birthDate) {
+    public Author(FullName name, String biography, Date birthDate) {
         this.name = name;
-        this.bibliography = bibliography;
+        this.biography = biography;
         this.birthDate = birthDate;
     }
 }
